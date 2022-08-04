@@ -1,8 +1,6 @@
-import React, { FC, useState } from "react";
-import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
-import AppText from "../components/AppText";
-import { COLORS } from "../constants";
-import { MainContainer, Heading, SubHeading, ExtraText, Illustration, Dots } from "../Styles/OnboardingStyle";
+import React, { FC } from "react";
+
+import { Heading, SubHeading, ExtraText, Illustration, Dots } from "../Styles/OnboardingStyle";
 interface Props {
     heading: string,
     subheading: string,

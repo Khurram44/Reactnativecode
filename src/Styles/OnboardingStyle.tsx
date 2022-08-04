@@ -1,11 +1,8 @@
 import styled from "styled-components/native";
-import { ImageBackground, View } from "react-native";
 import {
     widthPercentageToDP as wp,
     heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
-import AntDesign from '@expo/vector-icons/AntDesign';
-import { LinearGradient } from "expo-linear-gradient";
 import { COLORS } from "../constants";
 
 

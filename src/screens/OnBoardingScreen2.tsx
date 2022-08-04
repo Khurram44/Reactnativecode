@@ -1,6 +1,6 @@
 import React, { FC, useState } from "react";
 import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
-import AppText from "../components/AppText";
+
 import { COLORS } from "../constants";
 import OnBoarding from "../components/OnBoarding";
 import AppButton from "../components/AppButton";
